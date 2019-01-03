@@ -2,5 +2,4 @@ Flask
 Flask-RESTful
 Flask-JWT
 pymongo
-uwsgi
-werkzeug
+gunicorn
