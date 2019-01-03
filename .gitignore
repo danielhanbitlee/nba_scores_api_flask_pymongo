@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+date_crud.py
+user_backup.py
+*.swp
