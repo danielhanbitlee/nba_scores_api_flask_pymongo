@@ -11,8 +11,11 @@ class Team(Resource):
         try:
             team_list = TeamModel.find_by_team(team_name)
             
-            return {'results': team_list}, 200
+            if team_list:
+                return {'results': team_list}, 200
 
+            else:
+                return {'message': '{} is not a valid team name'.format(team_name)}
         except:
             return {"message": "An error occurred retrieving the team list."}, 500 # internal server error
 
