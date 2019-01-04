@@ -62,7 +62,11 @@
 		<li>hawks
 	</ul>
 	<p style="margin-left: 40px">Any other values for team_name will be considered invalid.</p>
-	<h3><ul><li>/city/&lt;string:city_name&gt;</ul></h3>  
+	<h3>
+		<ul>
+			<li>/city/&lt;string:city_name&gt;
+		</ul>
+	</h3>  
 	<p style="margin-left: 40px">Possible values for city_name:</p>
 	<ul style="margin-left: 40px">
 		<li>golden_state
