@@ -9,6 +9,23 @@
 		<h3>January 4, 2019</h3>
 		<h2>Description</h2>
 		<p>This is a simple REST API that receives GET requests from the client and retrieves 2018 National Basketball Association (NBA) scores.</p> 
+		<h2>How to Use the API</h2>
+		<p>Possible Routes</p>
+		<ul>
+			<li>/team/&lt;string:team_name&gt;
+				<ul>
+					<li>Example: /team/lakers
+				</ul>
+			<li>/city/&lt;string:city_name&gt;
+				<ul>
+					<li>Example: /city/los_angeles
+				</ul>
+			<li>/date/&lt;string:date&gt;
+				<ul>
+					<li>Example: /date/20181016
+				</ul>
+		</ul>
+
 		<h2>Data Scraping Implementation</h2>
 		<ul>
 			<li>The data is obtained through scraping the <a href="http://www.espn.com">espn.com</a> website using the following:
@@ -22,6 +39,10 @@
 			<li>You can find the code <a href="https://github.com/danielhanbitlee/scrape_nba_scores">here</a>.
 		</ul>
 		<h2>REST API Implementation</h2>
-		<p> The REST API is implemented using Python and Flask.</p>
+		<p> The REST API is implemented using the following:</p>
+			<ul>
+				<li>Python (v. 3.6.7)
+				<li>Flask (v. 1.0.2)
+			</ul>
 	</body>
 </html>
