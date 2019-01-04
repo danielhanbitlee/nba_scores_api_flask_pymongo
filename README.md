@@ -20,11 +20,11 @@
 			</ul>
 			<li><a href='https://nba-scores-api.herokuapp.com/team_list'>/team_list</a>
 			<ul>
-				<li>This gives a list of all the team names
+				<li>This gives a list of all the team names.
 			</ul>
 		<li><a href='https://nba-scores-api.herokuapp.com/city_list'>/city_list</a>
 			<ul>
-				<li>This gives a list of all the city names
+				<li>This gives a list of all the city names.
 			</ul>
 	</ul>
 	<h3>/team/&lt;string:team_name&gt;</h3>  
