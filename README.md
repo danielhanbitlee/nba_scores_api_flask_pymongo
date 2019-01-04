@@ -27,7 +27,7 @@
 				<li>This gives a list of all the city names
 			</ul>
 	</ul>
-	<h3>/team/&lt;string:team_name&gt;></h3>  
+	<h3>/team/&lt;string:team_name&gt;</h3>  
 	<p>Possible values for team_name:</p>
 	<ul>
 		<li>warriors
@@ -123,6 +123,5 @@
 		</ul>
 		<li>This API is connected to a MongoDB database to access the data
 		<li>The API is deployed on Heroku.
-		<li>You can find the code <a href="https://github.com/danielhanbitlee/nba_scores_api_flask_pymongo">here.</a>
 		<li>There's also an /auth route and a /register route for authentication and logging in. This requires Postman to use. For simplicity's sake, I removed the authentication requirements for the routes /team, /city, /date, /team_list, and /city_list.
 	</ul>
