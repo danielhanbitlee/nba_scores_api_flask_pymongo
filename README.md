@@ -28,8 +28,8 @@
 			</ul>
 	</ul>
 	<h3><ul><li>/team/&lt;string:team_name&gt;</ul></h3>  
-	<p style="margin-left: 40px">Possible values for team_name:</p>
-	<ul style="margin-left: 40px">
+	<p>Possible values for team_name:</p>
+	<ul>
 		<li>warriors
 		<li>suns
 		<li>clippers
@@ -61,14 +61,14 @@
 		<li>heat
 		<li>hawks
 	</ul>
-	<p style="margin-left: 40px">Any other values for team_name will be considered invalid.</p>
+	<p>Any other values for team_name will be considered invalid.</p>
 	<h3>
 		<ul>
 			<li>/city/&lt;string:city_name&gt;
 		</ul>
 	</h3>  
-	<p style="margin-left: 40px">Possible values for city_name:</p>
-	<ul style="margin-left: 40px">
+	<p>Possible values for city_name:</p>
+	<ul>
 		<li>golden_state
 		<li>phoenix
 		<li>la
@@ -100,9 +100,9 @@
 		<li>miami
 		<li>atlanta
 	</ul>
-	<p style="margin-left: 40px">Any other values for team_name will be considered invalid.</p>
+	<p>Any other values for team_name will be considered invalid.</p>
 	<h3><ul><li>/date/&lt;string:date&gt;</ul></h3>
-	<ul style="margin-left: 40px">
+	<ul>
 		<li>date needs to be in YYYYMMDD format
 		<li>date begins on 20181016 as this is the first game of the 2018 NBA season
 	</ul>
