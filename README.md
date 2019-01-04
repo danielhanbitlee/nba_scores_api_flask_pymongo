@@ -12,7 +12,7 @@
 			</ul>
 		<li>/city/&lt;string:city_name&gt;
 			<ul>
-				<li>e.g. <a href='https://nba-scores-api.herokuapp.com/city/los_angeles'>/team/los_angeles</a>
+				<li>e.g. <a href='https://nba-scores-api.herokuapp.com/city/los_angeles'>/city/los_angeles</a>
 			</ul>
 		<li>/date/&lt;string:date&gt;
 			<ul>
