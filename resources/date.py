@@ -1,10 +1,10 @@
 from flask_restful import Resource
-from flask_jwt import jwt_required
+# from flask_jwt import jwt_required
 from models.date import DateModel
 
 
 class Date(Resource):
-    @jwt_required()
+    # @jwt_required()
     def get(self, date):
         try:
             date_list = DateModel.find_by_date(date)

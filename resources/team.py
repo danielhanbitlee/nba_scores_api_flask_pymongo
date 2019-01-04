@@ -1,11 +1,11 @@
 from flask_restful import Resource
-from flask_jwt import jwt_required
+# from flask_jwt import jwt_required
 from models.team import TeamModel
 
 
 class Team(Resource):
 
-    @jwt_required()
+    # @jwt_required()
     def get(self, team_name):
 
         try:

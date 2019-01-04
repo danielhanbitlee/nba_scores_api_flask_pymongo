@@ -17,7 +17,7 @@ jwt = JWT(app, authenticate, identity) # /auth endpt created
 api.add_resource(Date, '/date/<string:date>')
 api.add_resource(Team, '/team/<string:team_name>')
 api.add_resource(TeamList, '/team_list')
-api.add_resource(City, '/city')
+api.add_resource(City, '/city/<string:city_name>')
 api.add_resource(CityList, '/city_list')
 api.add_resource(UserRegister, '/register')
 

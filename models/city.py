@@ -3,13 +3,6 @@ from db import db
 
 class CityModel:
 
-    def process_city_name(city_name):
-        return '_'.join(city_name.lower().split(' '))
-
-    def valid_city_name(city_name):
-        processed_city_name = CityModel.process_city_name(city_name)
-        return processed_city_name in CityModel.get_all_cities_list()['cities']
-
     def find_by_city(city_name):
 
         scores = db.Scores 
