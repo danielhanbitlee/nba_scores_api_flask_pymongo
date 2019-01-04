@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_restful import  Api
 from flask_jwt import JWT
 
@@ -21,6 +21,9 @@ api.add_resource(City, '/city/<string:city_name>')
 api.add_resource(CityList, '/city_list')
 api.add_resource(UserRegister, '/register')
 
+@app.route("/")
+def index():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(port = 5000, debug = True)
