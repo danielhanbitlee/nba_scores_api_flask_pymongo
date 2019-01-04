@@ -3,3 +3,4 @@ __pycache__/
 date_crud.py
 user_backup.py
 *.swp
+uwsgi.ini
