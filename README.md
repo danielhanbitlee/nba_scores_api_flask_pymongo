@@ -2,7 +2,7 @@
 	<h3>By Daniel Lee</h3>
 	<h3>January 4, 2019</h3>
 	<h2>Description</h2>
-	<p>This is a simple REST API that receives GET requests from the client and retrieves 2018 National Basketball Association (NBA) scores.</p> 
+	<p>This is a simple REST API that receives GET requests from the client and retrieves 2018 National Basketball Association (NBA) scores. You can access the API <a href='https://nba-scores-api.herokuapp.com/'>here</a>.</p> 
 	<h2>How to Use the API</h2>
 	<h3>Possible Routes</h3>
 	<ul>
