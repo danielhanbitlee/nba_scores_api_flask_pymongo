@@ -27,7 +27,7 @@
 				<li>This gives a list of all the city names
 			</ul>
 	</ul>
-	<h3><ul><li>/team/&lt;string:team_name&gt;</ul></h3>  
+	<h3>/team/&lt;string:team_name&gt;></h3>  
 	<p>Possible values for team_name:</p>
 	<ul>
 		<li>warriors
@@ -62,11 +62,7 @@
 		<li>hawks
 	</ul>
 	<p>Any other values for team_name will be considered invalid.</p>
-	<h3>
-		<ul>
-			<li>/city/&lt;string:city_name&gt;
-		</ul>
-	</h3>  
+	<h3>/city/&lt;string:city_name&gt;</h3>  
 	<p>Possible values for city_name:</p>
 	<ul>
 		<li>golden_state
@@ -101,7 +97,7 @@
 		<li>atlanta
 	</ul>
 	<p>Any other values for team_name will be considered invalid.</p>
-	<h3><ul><li>/date/&lt;string:date&gt;</ul></h3>
+	<h3>/date/&lt;string:date&gt;</h3>
 	<ul>
 		<li>date needs to be in YYYYMMDD format
 		<li>date begins on 20181016 as this is the first game of the 2018 NBA season
