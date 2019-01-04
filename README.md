@@ -27,7 +27,6 @@
 				<li>This gives a list of all the city names
 			</ul>
 	</ul>
-
 	<h3><ul><li>/team/&lt;string:team_name&gt;</ul></h3>  
 	<p style="margin-left: 40px">Possible values for team_name:</p>
 	<ul style="margin-left: 40px">
